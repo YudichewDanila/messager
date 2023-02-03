@@ -1,0 +1,43 @@
+*{
+    padding: 0%;
+    margin: 0%;  
+}
+
+main{
+    width:100%;
+    display: flex;
+
+}
+.authorization_inputenter{
+    width:70%;
+    height:10%;
+    font-size:18px;
+    border-radius:5px;
+    background: #1b1a1a;
+    color:silver;
+    padding-left:2px;
+    border:none;
+    }
+    .authorization_inputenter:hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+    }
+    .authorization_buttonforenter{
+        width:60%;
+        height:10%;
+        border-radius:5px;
+        border:none;
+        background: #1b1a1a;
+        color:rgb(107, 107, 107);
+        font-size: 16px;
+    }
+    .authorization_buttonshowregister{
+        width:35%;
+        height:5%;
+        border:solid 2px rgb(36, 36, 36);
+        border-bottom:none;
+        border-top-left-radius:50px;
+        border-bottom-left-radius:0px;
+        background: #1b1a1a;
+        color:rgb(196, 193, 193);
+    }
