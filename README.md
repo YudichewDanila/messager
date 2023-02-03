@@ -13,8 +13,8 @@ git clone https://github.com/YudichewDanila/messager.git
 
 ## Клиент
 Для запуска проекта перейдите в папку "client" и запустите клиентскую часть прилложения в режиме разработки. 
-<pre class="notranslate" style="color:blue">
-<code>cd /client
+<pre class="notranslate" style="color: red; font-size: 2em">
+<code style="color: red; font-size: 2em">cd /client
 npm run dev
 </code>
 </pre>
