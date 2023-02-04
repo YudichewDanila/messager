@@ -15,8 +15,8 @@ app.use(express.json());
 app.use(fileUpload({}));
 app.listen(PORT,()=>{console.log('Server start'+ PORT)});
 
-
-mongobd.connect('mongodb://localhost:27017/messegerBd');
+const {mongoDb} = require('./src/config');
+mongobd.connect(mongoDb);
 
 routes(app);
 
