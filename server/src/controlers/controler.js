@@ -54,7 +54,7 @@ const controler = (model) =>({
         try{
             let {Id, Surname, Name, Image} = req.body;
 
-            await model.updateOne({_id:Id}, {Name:Name, Surname:Surname, Image:Image});
+            await model.updateOne({_id:Id}, {Name:Name, Surname:Surname, Image:Image, FullName:Surname+' '+Name});
             let item = await model.findOne({_id:Id});
             item = {
                 Name:item.Name,
